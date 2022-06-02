@@ -1,0 +1,481 @@
+departureCity;arrivalCity;departDate;isDirectFlight;fare
+Shangai;Kyiv;20.06.2022;1;300
+Shangai;Adana;20.06.2022;1;250
+Shangai;Ankara;20.06.2022;1;450
+Shangai;New York;20.06.2022;1;600
+Shangai;Rio De Janeiro;20.06.2022;1;900
+Kyiv;Shangai;20.06.2022;1;300
+Kyiv;Adana;20.06.2022;1;250
+Kyiv;Ankara;20.06.2022;1;450
+Kyiv;New York;20.06.2022;1;600
+Kyiv;Rio De Janeiro;20.06.2022;1;900
+Adana;Shangai;20.06.2022;1;300
+Adana;Kyiv;20.06.2022;1;250
+Adana;Ankara;20.06.2022;1;450
+Adana;New York;20.06.2022;1;600
+Adana;Rio De Janeiro;20.06.2022;1;900
+Ankara;Shangai;20.06.2022;1;300
+Ankara;Adana;20.06.2022;1;250
+Ankara;New York;20.06.2022;1;450
+Ankara;Rio De Janeiro;20.06.2022;1;600
+Ankara;Kyiv;20.06.2022;1;900
+New York;Kyiv;20.06.2022;1;300
+New York;Adana;20.06.2022;1;250
+New York;Ankara;20.06.2022;1;450
+New York;Rio De Janeiro;20.06.2022;1;600
+New York;Shangai;20.06.2022;1;900
+Rio De Janeiro;Kyiv;20.06.2022;1;300
+Rio De Janeiro;Adana;20.06.2022;1;250
+Rio De Janeiro;Ankara;20.06.2022;1;450
+Rio De Janeiro;Shangai;20.06.2022;1;600
+Rio De Janeiro;New York;20.06.2022;1;900
+Shangai;Kyiv;27.06.2022;1;300
+Shangai;Adana;27.06.2022;1;250
+Shangai;Ankara;27.06.2022;1;450
+Shangai;New York;27.06.2022;1;600
+Shangai;Rio De Janeiro;27.06.2022;1;900
+Kyiv;Shangai;27.06.2022;1;300
+Kyiv;Adana;27.06.2022;1;250
+Kyiv;Ankara;27.06.2022;1;450
+Kyiv;New York;27.06.2022;1;600
+Kyiv;Rio De Janeiro;27.06.2022;1;900
+Adana;Shangai;27.06.2022;1;300
+Adana;Kyiv;27.06.2022;1;250
+Adana;Ankara;27.06.2022;1;450
+Adana;New York;27.06.2022;1;600
+Adana;Rio De Janeiro;27.06.2022;1;900
+Ankara;Shangai;27.06.2022;1;300
+Ankara;Adana;27.06.2022;1;250
+Ankara;New York;27.06.2022;1;450
+Ankara;Rio De Janeiro;27.06.2022;1;600
+Ankara;Kyiv;27.06.2022;1;900
+New York;Kyiv;27.06.2022;1;300
+New York;Adana;27.06.2022;1;250
+New York;Ankara;27.06.2022;1;450
+New York;Rio De Janeiro;27.06.2022;1;600
+New York;Shangai;27.06.2022;1;900
+Rio De Janeiro;Kyiv;27.06.2022;1;300
+Rio De Janeiro;Adana;27.06.2022;1;250
+Rio De Janeiro;Ankara;27.06.2022;1;450
+Rio De Janeiro;Shangai;27.06.2022;1;600
+Rio De Janeiro;New York;27.06.2022;1;900
+Shangai;Kyiv;20.06.2022;0;300
+Shangai;Adana;20.06.2022;0;250
+Shangai;Ankara;20.06.2022;0;450
+Shangai;New York;20.06.2022;0;600
+Shangai;Rio De Janeiro;20.06.2022;0;900
+Kyiv;Shangai;20.06.2022;0;300
+Kyiv;Adana;20.06.2022;0;250
+Kyiv;Ankara;20.06.2022;0;450
+Kyiv;New York;20.06.2022;0;600
+Kyiv;Rio De Janeiro;20.06.2022;0;900
+Adana;Shangai;20.06.2022;0;300
+Adana;Kyiv;20.06.2022;0;250
+Adana;Ankara;20.06.2022;0;450
+Adana;New York;20.06.2022;0;600
+Adana;Rio De Janeiro;20.06.2022;0;900
+Ankara;Shangai;20.06.2022;0;300
+Ankara;Adana;20.06.2022;0;250
+Ankara;New York;20.06.2022;0;450
+Ankara;Rio De Janeiro;20.06.2022;0;600
+Ankara;Kyiv;20.06.2022;0;900
+New York;Kyiv;20.06.2022;0;300
+New York;Adana;20.06.2022;0;250
+New York;Ankara;20.06.2022;0;450
+New York;Rio De Janeiro;20.06.2022;0;600
+New York;Shangai;20.06.2022;0;900
+Rio De Janeiro;Kyiv;20.06.2022;0;300
+Rio De Janeiro;Adana;20.06.2022;0;250
+Rio De Janeiro;Ankara;20.06.2022;0;450
+Rio De Janeiro;Shangai;20.06.2022;0;600
+Rio De Janeiro;New York;20.06.2022;0;900
+Shangai;Kyiv;27.06.2022;0;300
+Shangai;Adana;27.06.2022;0;250
+Shangai;Ankara;27.06.2022;0;450
+Shangai;New York;27.06.2022;0;600
+Shangai;Rio De Janeiro;27.06.2022;0;900
+Kyiv;Shangai;27.06.2022;0;300
+Kyiv;Adana;27.06.2022;0;250
+Kyiv;Ankara;27.06.2022;0;450
+Kyiv;New York;27.06.2022;0;600
+Kyiv;Rio De Janeiro;27.06.2022;0;900
+Adana;Shangai;27.06.2022;0;300
+Adana;Kyiv;27.06.2022;0;250
+Adana;Ankara;27.06.2022;0;450
+Adana;New York;27.06.2022;0;600
+Adana;Rio De Janeiro;27.06.2022;0;900
+Ankara;Shangai;27.06.2022;0;300
+Ankara;Adana;27.06.2022;0;250
+Ankara;New York;27.06.2022;0;450
+Ankara;Rio De Janeiro;27.06.2022;0;600
+Ankara;Kyiv;27.06.2022;0;900
+New York;Kyiv;27.06.2022;0;300
+New York;Adana;27.06.2022;0;250
+New York;Ankara;27.06.2022;0;450
+New York;Rio De Janeiro;27.06.2022;0;600
+New York;Shangai;27.06.2022;0;900
+Rio De Janeiro;Kyiv;27.06.2022;0;300
+Rio De Janeiro;Adana;27.06.2022;0;250
+Rio De Janeiro;Ankara;27.06.2022;0;450
+Rio De Janeiro;Shangai;27.06.2022;0;600
+Rio De Janeiro;New York;27.06.2022;0;900
+Shangai;Kyiv;20.06.2022;1;200
+Shangai;Adana;20.06.2022;1;125
+Shangai;Ankara;20.06.2022;1;345
+Shangai;New York;20.06.2022;1;560
+Shangai;Rio De Janeiro;20.06.2022;1;780
+Kyiv;Shangai;20.06.2022;1;200
+Kyiv;Adana;20.06.2022;1;125
+Kyiv;Ankara;20.06.2022;1;345
+Kyiv;New York;20.06.2022;1;560
+Kyiv;Rio De Janeiro;20.06.2022;1;780
+Adana;Shangai;20.06.2022;1;200
+Adana;Kyiv;20.06.2022;1;125
+Adana;Ankara;20.06.2022;1;345
+Adana;New York;20.06.2022;1;560
+Adana;Rio De Janeiro;20.06.2022;1;780
+Ankara;Shangai;20.06.2022;1;200
+Ankara;Adana;20.06.2022;1;125
+Ankara;New York;20.06.2022;1;345
+Ankara;Rio De Janeiro;20.06.2022;1;560
+Ankara;Kyiv;20.06.2022;1;780
+New York;Kyiv;20.06.2022;1;200
+New York;Adana;20.06.2022;1;125
+New York;Ankara;20.06.2022;1;345
+New York;Rio De Janeiro;20.06.2022;1;560
+New York;Shangai;20.06.2022;1;780
+Rio De Janeiro;Kyiv;20.06.2022;1;200
+Rio De Janeiro;Adana;20.06.2022;1;125
+Rio De Janeiro;Ankara;20.06.2022;1;345
+Rio De Janeiro;Shangai;20.06.2022;1;560
+Rio De Janeiro;New York;20.06.2022;1;780
+Shangai;Kyiv;27.06.2022;1;200
+Shangai;Adana;27.06.2022;1;125
+Shangai;Ankara;27.06.2022;1;345
+Shangai;New York;27.06.2022;1;560
+Shangai;Rio De Janeiro;27.06.2022;1;780
+Kyiv;Shangai;27.06.2022;1;200
+Kyiv;Adana;27.06.2022;1;125
+Kyiv;Ankara;27.06.2022;1;345
+Kyiv;New York;27.06.2022;1;560
+Kyiv;Rio De Janeiro;27.06.2022;1;780
+Adana;Shangai;27.06.2022;1;200
+Adana;Kyiv;27.06.2022;1;125
+Adana;Ankara;27.06.2022;1;345
+Adana;New York;27.06.2022;1;560
+Adana;Rio De Janeiro;27.06.2022;1;780
+Ankara;Shangai;27.06.2022;1;200
+Ankara;Adana;27.06.2022;1;125
+Ankara;New York;27.06.2022;1;345
+Ankara;Rio De Janeiro;27.06.2022;1;560
+Ankara;Kyiv;27.06.2022;1;780
+New York;Kyiv;27.06.2022;1;200
+New York;Adana;27.06.2022;1;125
+New York;Ankara;27.06.2022;1;345
+New York;Rio De Janeiro;27.06.2022;1;560
+New York;Shangai;27.06.2022;1;780
+Rio De Janeiro;Kyiv;27.06.2022;1;200
+Rio De Janeiro;Adana;27.06.2022;1;125
+Rio De Janeiro;Ankara;27.06.2022;1;345
+Rio De Janeiro;Shangai;27.06.2022;1;560
+Rio De Janeiro;New York;27.06.2022;1;780
+Shangai;Kyiv;20.06.2022;0;200
+Shangai;Adana;20.06.2022;0;125
+Shangai;Ankara;20.06.2022;0;345
+Shangai;New York;20.06.2022;0;560
+Shangai;Rio De Janeiro;20.06.2022;0;780
+Kyiv;Shangai;20.06.2022;0;200
+Kyiv;Adana;20.06.2022;0;125
+Kyiv;Ankara;20.06.2022;0;345
+Kyiv;New York;20.06.2022;0;560
+Kyiv;Rio De Janeiro;20.06.2022;0;780
+Adana;Shangai;20.06.2022;0;200
+Adana;Kyiv;20.06.2022;0;125
+Adana;Ankara;20.06.2022;0;345
+Adana;New York;20.06.2022;0;560
+Adana;Rio De Janeiro;20.06.2022;0;780
+Ankara;Shangai;20.06.2022;0;200
+Ankara;Adana;20.06.2022;0;125
+Ankara;New York;20.06.2022;0;345
+Ankara;Rio De Janeiro;20.06.2022;0;560
+Ankara;Kyiv;20.06.2022;0;780
+New York;Kyiv;20.06.2022;0;200
+New York;Adana;20.06.2022;0;125
+New York;Ankara;20.06.2022;0;345
+New York;Rio De Janeiro;20.06.2022;0;560
+New York;Shangai;20.06.2022;0;780
+Rio De Janeiro;Kyiv;20.06.2022;0;200
+Rio De Janeiro;Adana;20.06.2022;0;125
+Rio De Janeiro;Ankara;20.06.2022;0;345
+Rio De Janeiro;Shangai;20.06.2022;0;560
+Rio De Janeiro;New York;20.06.2022;0;780
+Shangai;Kyiv;27.06.2022;0;200
+Shangai;Adana;27.06.2022;0;125
+Shangai;Ankara;27.06.2022;0;345
+Shangai;New York;27.06.2022;0;560
+Shangai;Rio De Janeiro;27.06.2022;0;780
+Kyiv;Shangai;27.06.2022;0;200
+Kyiv;Adana;27.06.2022;0;125
+Kyiv;Ankara;27.06.2022;0;345
+Kyiv;New York;27.06.2022;0;560
+Kyiv;Rio De Janeiro;27.06.2022;0;780
+Adana;Shangai;27.06.2022;0;200
+Adana;Kyiv;27.06.2022;0;125
+Adana;Ankara;27.06.2022;0;345
+Adana;New York;27.06.2022;0;560
+Adana;Rio De Janeiro;27.06.2022;0;780
+Ankara;Shangai;27.06.2022;0;200
+Ankara;Adana;27.06.2022;0;125
+Ankara;New York;27.06.2022;0;345
+Ankara;Rio De Janeiro;27.06.2022;0;560
+Ankara;Kyiv;27.06.2022;0;780
+New York;Kyiv;27.06.2022;0;200
+New York;Adana;27.06.2022;0;125
+New York;Ankara;27.06.2022;0;345
+New York;Rio De Janeiro;27.06.2022;0;560
+New York;Shangai;27.06.2022;0;780
+Rio De Janeiro;Kyiv;27.06.2022;0;200
+Rio De Janeiro;Adana;27.06.2022;0;125
+Rio De Janeiro;Ankara;27.06.2022;0;345
+Rio De Janeiro;Shangai;27.06.2022;0;560
+Rio De Janeiro;New York;27.06.2022;0;780
+Shangai;Kyiv;28.06.2022;1;357
+Shangai;Adana;28.06.2022;1;745
+Shangai;Ankara;28.06.2022;1;635
+Shangai;New York;28.06.2022;1;524
+Shangai;Rio De Janeiro;28.06.2022;1;326
+Kyiv;Shangai;28.06.2022;1;357
+Kyiv;Adana;28.06.2022;1;745
+Kyiv;Ankara;28.06.2022;1;635
+Kyiv;New York;28.06.2022;1;524
+Kyiv;Rio De Janeiro;28.06.2022;1;326
+Adana;Shangai;28.06.2022;1;357
+Adana;Kyiv;28.06.2022;1;745
+Adana;Ankara;28.06.2022;1;635
+Adana;New York;28.06.2022;1;524
+Adana;Rio De Janeiro;28.06.2022;1;326
+Ankara;Shangai;28.06.2022;1;357
+Ankara;Adana;28.06.2022;1;745
+Ankara;New York;28.06.2022;1;635
+Ankara;Rio De Janeiro;28.06.2022;1;524
+Ankara;Kyiv;28.06.2022;1;326
+New York;Kyiv;28.06.2022;1;357
+New York;Adana;28.06.2022;1;745
+New York;Ankara;28.06.2022;1;635
+New York;Rio De Janeiro;28.06.2022;1;524
+New York;Shangai;28.06.2022;1;326
+Rio De Janeiro;Kyiv;28.06.2022;1;357
+Rio De Janeiro;Adana;28.06.2022;1;745
+Rio De Janeiro;Ankara;28.06.2022;1;635
+Rio De Janeiro;Shangai;28.06.2022;1;524
+Rio De Janeiro;New York;28.06.2022;1;326
+Shangai;Kyiv;28.06.2022;1;357
+Shangai;Adana;28.06.2022;1;745
+Shangai;Ankara;28.06.2022;1;635
+Shangai;New York;28.06.2022;1;524
+Shangai;Rio De Janeiro;28.06.2022;1;326
+Kyiv;Shangai;28.06.2022;1;357
+Kyiv;Adana;28.06.2022;1;745
+Kyiv;Ankara;28.06.2022;1;635
+Kyiv;New York;28.06.2022;1;524
+Kyiv;Rio De Janeiro;28.06.2022;1;326
+Adana;Shangai;28.06.2022;1;357
+Adana;Kyiv;28.06.2022;1;745
+Adana;Ankara;28.06.2022;1;635
+Adana;New York;28.06.2022;1;524
+Adana;Rio De Janeiro;28.06.2022;1;326
+Ankara;Shangai;28.06.2022;1;357
+Ankara;Adana;28.06.2022;1;745
+Ankara;New York;28.06.2022;1;635
+Ankara;Rio De Janeiro;28.06.2022;1;524
+Ankara;Kyiv;28.06.2022;1;326
+New York;Kyiv;28.06.2022;1;357
+New York;Adana;28.06.2022;1;745
+New York;Ankara;28.06.2022;1;635
+New York;Rio De Janeiro;28.06.2022;1;524
+New York;Shangai;28.06.2022;1;326
+Rio De Janeiro;Kyiv;28.06.2022;1;357
+Rio De Janeiro;Adana;28.06.2022;1;745
+Rio De Janeiro;Ankara;28.06.2022;1;635
+Rio De Janeiro;Shangai;28.06.2022;1;524
+Rio De Janeiro;New York;28.06.2022;1;326
+Shangai;Kyiv;28.06.2022;0;357
+Shangai;Adana;28.06.2022;0;745
+Shangai;Ankara;28.06.2022;0;635
+Shangai;New York;28.06.2022;0;524
+Shangai;Rio De Janeiro;28.06.2022;0;326
+Kyiv;Shangai;28.06.2022;0;357
+Kyiv;Adana;28.06.2022;0;745
+Kyiv;Ankara;28.06.2022;0;635
+Kyiv;New York;28.06.2022;0;524
+Kyiv;Rio De Janeiro;28.06.2022;0;326
+Adana;Shangai;28.06.2022;0;357
+Adana;Kyiv;28.06.2022;0;745
+Adana;Ankara;28.06.2022;0;635
+Adana;New York;28.06.2022;0;524
+Adana;Rio De Janeiro;28.06.2022;0;326
+Ankara;Shangai;28.06.2022;0;357
+Ankara;Adana;28.06.2022;0;745
+Ankara;New York;28.06.2022;0;635
+Ankara;Rio De Janeiro;28.06.2022;0;524
+Ankara;Kyiv;28.06.2022;0;326
+New York;Kyiv;28.06.2022;0;357
+New York;Adana;28.06.2022;0;745
+New York;Ankara;28.06.2022;0;635
+New York;Rio De Janeiro;28.06.2022;0;524
+New York;Shangai;28.06.2022;0;326
+Rio De Janeiro;Kyiv;28.06.2022;0;357
+Rio De Janeiro;Adana;28.06.2022;0;745
+Rio De Janeiro;Ankara;28.06.2022;0;635
+Rio De Janeiro;Shangai;28.06.2022;0;524
+Rio De Janeiro;New York;28.06.2022;0;326
+Shangai;Kyiv;28.06.2022;0;357
+Shangai;Adana;28.06.2022;0;745
+Shangai;Ankara;28.06.2022;0;635
+Shangai;New York;28.06.2022;0;524
+Shangai;Rio De Janeiro;28.06.2022;0;326
+Kyiv;Shangai;28.06.2022;0;357
+Kyiv;Adana;28.06.2022;0;745
+Kyiv;Ankara;28.06.2022;0;635
+Kyiv;New York;28.06.2022;0;524
+Kyiv;Rio De Janeiro;28.06.2022;0;326
+Adana;Shangai;28.06.2022;0;357
+Adana;Kyiv;28.06.2022;0;745
+Adana;Ankara;28.06.2022;0;635
+Adana;New York;28.06.2022;0;524
+Adana;Rio De Janeiro;28.06.2022;0;326
+Ankara;Shangai;28.06.2022;0;357
+Ankara;Adana;28.06.2022;0;745
+Ankara;New York;28.06.2022;0;635
+Ankara;Rio De Janeiro;28.06.2022;0;524
+Ankara;Kyiv;28.06.2022;0;326
+New York;Kyiv;28.06.2022;0;357
+New York;Adana;28.06.2022;0;745
+New York;Ankara;28.06.2022;0;635
+New York;Rio De Janeiro;28.06.2022;0;524
+New York;Shangai;28.06.2022;0;326
+Rio De Janeiro;Kyiv;28.06.2022;0;357
+Rio De Janeiro;Adana;28.06.2022;0;745
+Rio De Janeiro;Ankara;28.06.2022;0;635
+Rio De Janeiro;Shangai;28.06.2022;0;524
+Rio De Janeiro;New York;28.06.2022;0;326
+Shangai;Kyiv;28.06.2022;1;357
+Shangai;Adana;28.06.2022;1;745
+Shangai;Ankara;28.06.2022;1;635
+Shangai;New York;28.06.2022;1;524
+Shangai;Rio De Janeiro;28.06.2022;1;326
+Kyiv;Shangai;28.06.2022;1;357
+Kyiv;Adana;28.06.2022;1;745
+Kyiv;Ankara;28.06.2022;1;635
+Kyiv;New York;28.06.2022;1;524
+Kyiv;Rio De Janeiro;28.06.2022;1;326
+Adana;Shangai;28.06.2022;1;357
+Adana;Kyiv;28.06.2022;1;745
+Adana;Ankara;28.06.2022;1;635
+Adana;New York;28.06.2022;1;524
+Adana;Rio De Janeiro;28.06.2022;1;326
+Ankara;Shangai;28.06.2022;1;357
+Ankara;Adana;28.06.2022;1;745
+Ankara;New York;28.06.2022;1;635
+Ankara;Rio De Janeiro;28.06.2022;1;524
+Ankara;Kyiv;28.06.2022;1;326
+New York;Kyiv;28.06.2022;1;357
+New York;Adana;28.06.2022;1;745
+New York;Ankara;28.06.2022;1;635
+New York;Rio De Janeiro;28.06.2022;1;524
+New York;Shangai;28.06.2022;1;326
+Rio De Janeiro;Kyiv;28.06.2022;1;357
+Rio De Janeiro;Adana;28.06.2022;1;745
+Rio De Janeiro;Ankara;28.06.2022;1;635
+Rio De Janeiro;Shangai;28.06.2022;1;524
+Rio De Janeiro;New York;28.06.2022;1;326
+Shangai;Kyiv;28.06.2022;1;357
+Shangai;Adana;28.06.2022;1;745
+Shangai;Ankara;28.06.2022;1;635
+Shangai;New York;28.06.2022;1;524
+Shangai;Rio De Janeiro;28.06.2022;1;326
+Kyiv;Shangai;28.06.2022;1;357
+Kyiv;Adana;28.06.2022;1;745
+Kyiv;Ankara;28.06.2022;1;635
+Kyiv;New York;28.06.2022;1;524
+Kyiv;Rio De Janeiro;28.06.2022;1;326
+Adana;Shangai;28.06.2022;1;357
+Adana;Kyiv;28.06.2022;1;745
+Adana;Ankara;28.06.2022;1;635
+Adana;New York;28.06.2022;1;524
+Adana;Rio De Janeiro;28.06.2022;1;326
+Ankara;Shangai;28.06.2022;1;357
+Ankara;Adana;28.06.2022;1;745
+Ankara;New York;28.06.2022;1;635
+Ankara;Rio De Janeiro;28.06.2022;1;524
+Ankara;Kyiv;28.06.2022;1;326
+New York;Kyiv;28.06.2022;1;357
+New York;Adana;28.06.2022;1;745
+New York;Ankara;28.06.2022;1;635
+New York;Rio De Janeiro;28.06.2022;1;524
+New York;Shangai;28.06.2022;1;326
+Rio De Janeiro;Kyiv;28.06.2022;1;357
+Rio De Janeiro;Adana;28.06.2022;1;745
+Rio De Janeiro;Ankara;28.06.2022;1;635
+Rio De Janeiro;Shangai;28.06.2022;1;524
+Rio De Janeiro;New York;28.06.2022;1;326
+Shangai;Kyiv;28.06.2022;0;357
+Shangai;Adana;28.06.2022;0;745
+Shangai;Ankara;28.06.2022;0;635
+Shangai;New York;28.06.2022;0;524
+Shangai;Rio De Janeiro;28.06.2022;0;326
+Kyiv;Shangai;28.06.2022;0;357
+Kyiv;Adana;28.06.2022;0;745
+Kyiv;Ankara;28.06.2022;0;635
+Kyiv;New York;28.06.2022;0;524
+Kyiv;Rio De Janeiro;28.06.2022;0;326
+Adana;Shangai;28.06.2022;0;357
+Adana;Kyiv;28.06.2022;0;745
+Adana;Ankara;28.06.2022;0;635
+Adana;New York;28.06.2022;0;524
+Adana;Rio De Janeiro;28.06.2022;0;326
+Ankara;Shangai;28.06.2022;0;357
+Ankara;Adana;28.06.2022;0;745
+Ankara;New York;28.06.2022;0;635
+Ankara;Rio De Janeiro;28.06.2022;0;524
+Ankara;Kyiv;28.06.2022;0;326
+New York;Kyiv;28.06.2022;0;357
+New York;Adana;28.06.2022;0;745
+New York;Ankara;28.06.2022;0;635
+New York;Rio De Janeiro;28.06.2022;0;524
+New York;Shangai;28.06.2022;0;326
+Rio De Janeiro;Kyiv;28.06.2022;0;357
+Rio De Janeiro;Adana;28.06.2022;0;745
+Rio De Janeiro;Ankara;28.06.2022;0;635
+Rio De Janeiro;Shangai;28.06.2022;0;524
+Rio De Janeiro;New York;28.06.2022;0;326
+Shangai;Kyiv;28.06.2022;0;357
+Shangai;Adana;28.06.2022;0;745
+Shangai;Ankara;28.06.2022;0;635
+Shangai;New York;28.06.2022;0;524
+Shangai;Rio De Janeiro;28.06.2022;0;326
+Kyiv;Shangai;28.06.2022;0;357
+Kyiv;Adana;28.06.2022;0;745
+Kyiv;Ankara;28.06.2022;0;635
+Kyiv;New York;28.06.2022;0;524
+Kyiv;Rio De Janeiro;28.06.2022;0;326
+Adana;Shangai;28.06.2022;0;357
+Adana;Kyiv;28.06.2022;0;745
+Adana;Ankara;28.06.2022;0;635
+Adana;New York;28.06.2022;0;524
+Adana;Rio De Janeiro;28.06.2022;0;326
+Ankara;Shangai;28.06.2022;0;357
+Ankara;Adana;28.06.2022;0;745
+Ankara;New York;28.06.2022;0;635
+Ankara;Rio De Janeiro;28.06.2022;0;524
+Ankara;Kyiv;28.06.2022;0;326
+New York;Kyiv;28.06.2022;0;357
+New York;Adana;28.06.2022;0;745
+New York;Ankara;28.06.2022;0;635
+New York;Rio De Janeiro;28.06.2022;0;524
+New York;Shangai;28.06.2022;0;326
+Rio De Janeiro;Kyiv;28.06.2022;0;357
+Rio De Janeiro;Adana;28.06.2022;0;745
+Rio De Janeiro;Ankara;28.06.2022;0;635
+Rio De Janeiro;Shangai;28.06.2022;0;524
+Rio De Janeiro;New York;28.06.2022;0;326
