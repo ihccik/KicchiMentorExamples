@@ -518,6 +518,7 @@ public class DJRUtilities {
   }
 
   /**
+   * <p>Coded by @Yusuf</p>
    * This method can print a basic welcome with name, city and state
    * Example 1:
    * Input:
@@ -547,5 +548,29 @@ public class DJRUtilities {
     temp = temp.trim();
 
     System.out.println("Hello, " + temp +"! Welcome to "+city+", "+state+"!");
+  }
+
+  /**
+   * this method will take a string of number and will return back same string but
+   * with numbers bigger than 4 will be 1 and smaller than 5 will be 0
+   * @param numbers given number
+   * @return
+   */
+  private static String fakedBinary(String numbers) {
+
+    numbers = numbers.replaceAll(" ","");
+
+    String[] numberStringArray = numbers.split("");
+
+    System.out.println(numbers);
+
+    numbers = "";
+
+    for (String each : numberStringArray) {
+      if (parseInt(each) < 5) each = "0";
+      else each = "1";
+      numbers += each;
+    }
+    return numbers;
   }
 }
