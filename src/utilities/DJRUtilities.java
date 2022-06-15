@@ -519,6 +519,7 @@ public class DJRUtilities {
 
   /**
    * <p>Coded by @Yusuf</p>
+   * Source: https://www.codewars.com/kata/5302d846be2a9189af0001e4
    * This method can print a basic welcome with name, city and state
    * Example 1:
    * Input:
@@ -551,8 +552,12 @@ public class DJRUtilities {
   }
 
   /**
+   * <p>Coded by @Yusuf</p>
+   * Source: https://www.codewars.com/kata/57eae65a4321032ce000002d
+   * Explanation:
    * this method will take a string of number and will return back same string but
    * with numbers bigger than 4 will be 1 and smaller than 5 will be 0
+   * Note: input will never be an empty string
    * @param numbers given number
    * @return
    */
@@ -567,10 +572,114 @@ public class DJRUtilities {
     numbers = "";
 
     for (String each : numberStringArray) {
-      if (parseInt(each) < 5) each = "0";
+      if (Integer.parseInt(each) < 5) each = "0";
       else each = "1";
       numbers += each;
     }
     return numbers;
+  }
+
+  /**
+   * <p>Coded by @Glen</p>
+   * Write a function that will return the count of distinct case-insensitive alphabetic characters that
+   * occur more than once in the input string. The input string can be assumed to
+   * contain only alphabets (both uppercase and lowercase).
+   *
+   * Example 1:
+   * Input: “sample”
+   * Output: 0
+   * Explanation: No characters repeat more than once.
+   *
+   * Example 2:
+   * Input: “Ranger”
+   * Output: 1
+   * Explanation: R is repeated for two times. Only one character is repeated thus we got 1 as output
+   *
+   * Example 3:
+   * Input: “Indivisibilities”
+   * Output: 2
+   * Explanation: 'i' occurs seven times and 's' occurs twice. Since we have 2 characters that occur
+   * more than once we got 2 as output.
+   * @return
+   */
+  public static int multipleOccurringCharCount(){
+    //todo Glen will share his code
+    return 0;
+  }
+
+  /**
+   * <p>Coded by @Ekaterina</p>
+   * You are given a string of space separated numbers, write a method that returns the highest and
+   * lowest number as an int array. The smaller should be the first element of the array.
+   *
+   * Example 1:
+   * Input: "1 2 3 4 50"
+   * Output: [1,50]
+   * Explanation: In the given string the smallest number is 1 and the highest is 50,
+   * so we return an int array whose first element is 1 and second element is 50.
+   *
+   * Example 2:
+   * Input: “1 2 -30 40 5”
+   * Output: [-30,40]
+   * @return
+   */
+  public static int[] minAndMaxNumberInString(){
+    //todo Ekaterina will share her code
+    return null;
+  }
+
+  /**
+   * <p>Coded by @Nina</p>
+   * Given an input string s, write a method that returns the reverse order of the words as a new string.
+   *
+   * Example:
+   * Input: "the sky is blue"
+   * Output: "blue is sky the"
+   * @return
+   */
+  public static String reverseWordsInAString(){
+    //todo Nina will share her code
+    return null;
+  }
+
+  /**
+   * <p>Coded by @Mehmet</p>
+   * Given a string, write a method that capitalizes the first chars of each word and returns the new string.
+   *
+   * Example:
+   * Input: “How can mirrors be real if our eyes aren't real”
+   * Output: “How Can Mirrors Be Real If Our Eyes Aren't Real”
+   * @return
+   */
+  public static String capitalizeAllWordsInAString(){
+    //todo Mehmet will share his codes
+    return null;
+  }
+
+  /**
+   * <p>Coded by @Yusuf</p>
+   * Source: https://www.codewars.com/kata/5583090cbe83f4fd8c000051
+   * Explanation:
+   * Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+   *
+   * Example 1:
+   * Input: 348597
+   * Output: [7,9,5,8,4,3]
+   *
+   * Example 2:
+   * Input: 0
+   * Output: [0]
+   * @param number given number
+   */
+  private static int[] convertNumberToReversedArrayDigits(int number) {
+    String numberToString = String.valueOf(number); // convert it to string to find its length
+
+    int[] numberToArray = new int[numberToString.length()];
+
+    for (int i = 0, j = numberToString.length()-1; i < numberToString.length(); i++, j--) {
+      numberToArray[j] = Integer.parseInt(numberToString.substring(i,i+1));
+    }
+
+    return numberToArray;
   }
 }
