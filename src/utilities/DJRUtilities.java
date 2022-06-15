@@ -460,7 +460,7 @@ public class DJRUtilities {
   }
 
   /**
-   * <p>Coded by @kicchi</p>
+   * <p>Coded by @Yuliia and @Glenio and @Ekaterina and @Sebastian</p>
    * Opens the provided webSite on the System Default Internet Browser
    * @param webSiteUrl should be in format "http://www.google.com" or "https://www.google.com"
    * @throws URISyntaxException
@@ -472,7 +472,7 @@ public class DJRUtilities {
   }
 
   /**
-   * <p>Coded by @kicchi</p>
+   * <p>Coded by @Nina @Yusuf @Sumeye @Mehmet</p>
    * Simply plays system beep sound one time
    */
   public static void playBeepSound(){
@@ -515,5 +515,37 @@ public class DJRUtilities {
    */
   public static void changeBackgroundOfTheConsole(){
     //todo who wants this?
+  }
+
+  /**
+   * This method can print a basic welcome with name, city and state
+   * Example 1:
+   * Input:
+   * sayHello(new String[]{"John", "Smith"}, "Phoenix", "Arizona")
+   * Output: Hello, John Smith! Welcome to Phoenix, Arizona!
+   *
+   * Example 2:
+   * Input:
+   * sayHello(new String[]{"John"}, "Phoenix", "Arizona")
+   * Output: Hello, John! Welcome to Phoenix, Arizona!
+   *
+   * Example 3:
+   * Input:
+   * sayHello(new String[]{"John", “Cem”, “Smith”}, "Phoenix", "Arizona")
+   * Output: Hello, John Cem Smith! Welcome to Phoenix, Arizona!
+   * @param name for the name of person
+   * @param city for name of the city
+   * @param state for name of the state
+   */
+  public static void sayHello(String[] name, String city, String state){
+    String temp = "";
+
+    for (String each : name) {
+      temp += each + " ";
+    }
+
+    temp = temp.trim();
+
+    System.out.println("Hello, " + temp +"! Welcome to "+city+", "+state+"!");
   }
 }
