@@ -5,6 +5,7 @@ import java.awt.Toolkit;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -623,9 +624,20 @@ public class DJRUtilities {
    * Output: [-30,40]
    * @return
    */
-  public static int[] minAndMaxNumberInString(){
-    //todo Ekaterina will share her code
-    return null;
+  public static int[] minAndMaxNumberInString(String str){
+    String[] strArray = str.split(" ");// convert str into String Array with separate numbers
+    // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    int[] numbArray = new int[strArray.length];// creating Int Array with the value of Str Array
+    for (int i = 0; i < strArray.length; i++) {// We take the strArray length and assign each digit at [i](i-index)
+      int numbInt = Integer.parseInt(strArray[i]);// to each numbArray at[i]( which is int Array)
+      numbArray[i] = numbInt;
+    }  // [1,2,3,4,5,6,7,8,9,10]
+
+
+    Arrays.sort(numbArray);
+    int[] minMax ={numbArray[0],numbArray[numbArray.length-1]};
+    return minMax;
   }
 
   /**
