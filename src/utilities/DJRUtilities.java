@@ -603,9 +603,23 @@ public class DJRUtilities {
    * more than once we got 2 as output.
    * @return
    */
-  public static int multipleOccurringCharCount(){
-    //todo Glen will share his code
-    return 0;
+  public static int multipleOccurringCharCount(String str){
+    str = str.toLowerCase();
+    String[] str1 = str.split("");
+
+    String x = "";
+    String repeat = "";
+    int count = 0;
+
+    for (String each : str1) {// for(int i = 0; i < str.length(); i++)
+      if (!x.contains(each)) {
+        x += each;
+      } else if (!repeat.contains(each)) {
+        repeat += each;
+        count++;
+      }
+    }
+    return count;
   }
 
   /**
@@ -700,5 +714,21 @@ public class DJRUtilities {
     }
 
     return numberToArray;
+  }
+
+  /**
+   * <p>Coded by @Glen</p>
+   * An extraordinary solution for using "for each" loop
+   * Noone can think that except Glen :)
+   * @return
+   */
+  public static void changeArrayElementsByForEachLoop(){
+    int[] myArray =new int[3];
+
+    int i = 0;
+    for (int each : myArray) {
+      myArray[i++] = 5;
+    }
+    System.out.println(Arrays.toString(myArray));
   }
 }
