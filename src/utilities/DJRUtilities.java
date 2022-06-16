@@ -684,9 +684,21 @@ public class DJRUtilities {
    * Output: “How Can Mirrors Be Real If Our Eyes Aren't Real”
    * @return
    */
-  public static String capitalizeAllWordsInAString(){
-    //todo Mehmet will share his codes
-    return null;
+  public static String capitalizeAllWordsInAString(String input){
+    String [] words=input.trim().split(" ");
+
+    String output="";
+
+
+    for (int i = 0; i < words.length; i++) {
+      String currentWord=words[i];
+      if (currentWord.charAt(0)>='A' &&currentWord.charAt(0) <='Z'){
+        output+=currentWord+" ";
+      }else{
+        output+=currentWord.replace(currentWord.charAt(0), (char) (currentWord.charAt(0)-32))+" ";
+      }
+    }
+    return output;
   }
 
   /**
