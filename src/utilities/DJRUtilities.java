@@ -637,9 +637,16 @@ public class DJRUtilities {
    * Output: "blue is sky the"
    * @return
    */
-  public static String reverseWordsInAString(){
-    //todo Nina will share her code
-    return null;
+  public static String reverseWordsInAString(String sentence){
+    //Breaking the sentence into words
+    String[] arr = sentence.split(" ");
+    String empty = "";
+
+    //Adding the words stored in the array to the last
+    for (int i = 0; i <= arr.length - 1; i++) {
+      empty = arr[i] + " " + empty;
+    }
+    return empty;
   }
 
   /**
