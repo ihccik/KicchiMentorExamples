@@ -684,7 +684,7 @@ public class DJRUtilities {
    * Output: “How Can Mirrors Be Real If Our Eyes Aren't Real”
    * @return
    */
-  public static String capitalizeAllWordsInAString(String input){
+  public static String capitalizeAllWordsInAString1(String input){
     String [] words=input.trim().split(" ");
 
     String output="";
@@ -699,6 +699,26 @@ public class DJRUtilities {
       }
     }
     return output;
+  }
+
+  /**
+   * <p>Coded by @Sumeye</p>
+   * Given a string, write a method that capitalizes the first chars of each word and returns the new string.
+   *
+   * Example:
+   * Input: “How can mirrors be real if our eyes aren't real”
+   * Output: “How Can Mirrors Be Real If Our Eyes Aren't Real”
+   * @return
+   */
+  public static String capitalizeAllWordsInAString2(String str){
+    String words[]=str.split("\\s");
+    String capitalizeWord="";
+    for(String w:words){
+      String first=w.substring(0,1);
+      String afterFirst=w.substring(1);
+      capitalizeWord+=first.toUpperCase()+afterFirst+" ";
+    }
+    return capitalizeWord.trim();
   }
 
   /**
