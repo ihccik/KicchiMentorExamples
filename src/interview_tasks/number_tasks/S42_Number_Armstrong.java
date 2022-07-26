@@ -14,6 +14,8 @@ public class S42_Number_Armstrong {
         A positive integer of n digits is called an Armstrong number of order n (order is number of digits) if
         abcd… = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + ….
 
+        In the range 0 to 999 there exists six Armstrong numbers- 0, 1, 153, 370, 371 and 407.
+
         EXAMPLE:
         Input : 153
         Output : true
