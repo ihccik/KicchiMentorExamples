@@ -8,6 +8,7 @@ public class S42_Number_Armstrong {
 
     /*
         Write a method that can check if a number is Armstrong number
+        Assume that, we are focusing only three digits numbers
 
         ARMSTRONG NUMBER:
         A positive integer of n digits is called an Armstrong number of order n (order is number of digits) if
@@ -28,7 +29,7 @@ public class S42_Number_Armstrong {
      */
 
     public static void main(String[] args) {
-        System.out.println(defaultSolution(1253));
+        System.out.println(defaultSolution(1634));
     }
 
     public static boolean defaultSolution(int num) {

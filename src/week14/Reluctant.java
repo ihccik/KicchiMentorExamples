@@ -1,8 +1,6 @@
 package week14;
 
 
-import experimental.UserInputException;
-
 public class Reluctant {
   private Reluctant internalInstance = new Reluctant();
 
