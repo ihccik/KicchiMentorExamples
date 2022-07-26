@@ -15,17 +15,11 @@ public class S42_Number_Armstrong {
         abcd… = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + ….
 
         EXAMPLE:
-        Input : 1253
-        Output : false
-        Explanation:
-            1253 is not a Armstrong Number
-            1*1*1*1 + 2*2*2*2 + 5*5*5*5 + 3*3*3*3 = 723
-
-        EXAMPLE:
-        Input : 1634
+        Input : 153
         Output : true
         Explanation:
-            1*1*1*1 + 6*6*6*6 + 3*3*3*3 + 4*4*4*4 = 1634
+            153 is an Armstrong number because
+            (1 times 1) + (5 times 5) + (3 times 3) = 1 + 125 + 27 = 153
      */
 
     public static void main(String[] args) {
