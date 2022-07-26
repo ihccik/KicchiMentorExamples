@@ -1,0 +1,41 @@
+package interview_tasks.number_tasks;
+
+/**
+ * https://www.geeksforgeeks.org/binary-representation-of-a-given-number/
+ */
+public class S60_Number_BinaryRepresentationOfN {
+
+    /*
+        Return the number of '1's in the binary representation of n for any integer n, where n > 0
+
+        EXAMPLE
+        input: 6
+        output: 2
+        explanation:
+            for n=6 the binary representation is '110' and the number of '1's in that representation is 2
+     */
+
+    public static void main(String[] args) {
+        System.out.println(defaultSolution(6));
+    }
+
+    public static int defaultSolution(int n) {
+        String s = "";
+        boolean result = n > 0;
+
+        while (result) {
+            s = ((n % 2) == 0 ? "0" : "1") + s;
+            n = n / 2;
+            result = n > 0;
+        }
+
+        int count = 0;
+        for (char each : s.toCharArray()) {
+            if (each == '1') {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
