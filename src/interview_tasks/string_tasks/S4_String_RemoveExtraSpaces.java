@@ -12,6 +12,7 @@ public class S4_String_RemoveExtraSpaces {
 
     public static void main(String[] args) {
         System.out.println(defaultSolution("  Hello world      I      love      Java    "));
+        System.out.println(kicchiSolution("  Hello world      I      love      Java    "));
     }
 
     public static String defaultSolution(String sentence) {
@@ -25,5 +26,12 @@ public class S4_String_RemoveExtraSpaces {
         }
 
         return result.trim();
+    }
+
+    public static String kicchiSolution(String sentence) {
+        while (sentence.contains("  ")){
+            sentence = sentence.replace("  ", " ");
+        }
+        return sentence.trim();
     }
 }
