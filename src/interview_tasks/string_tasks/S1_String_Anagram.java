@@ -26,13 +26,15 @@ public class S1_String_Anagram {
      */
 
     public static void main(String[] args) {
-        System.out.println(defaultSolution1("abc", "cab"));;
-        System.out.println(defaultSolution2("abc", "cab"));;
+        //System.out.println(defaultSolution1("abc", "cab"));;
+        //System.out.println(defaultSolution2("abc", "cab"));;
+        System.out.println(kicchiSolution("anagram", "nagaram"));;
     }
 
-    public static boolean defaultSolution1(String a, String b) {
-        char[] ch1 = a.toCharArray();
-        char[] ch2 = b.toCharArray();
+    //passed on leetcode
+    public static boolean defaultSolution1(String s, String t) {
+        char[] ch1 = s.toCharArray();
+        char[] ch2 = t.toCharArray();
 
         Arrays.sort(ch1);
         Arrays.sort(ch2);
@@ -49,9 +51,28 @@ public class S1_String_Anagram {
         return a1.equals(a2);
     }
 
+    //can not passed leetcode
     public static boolean defaultSolution2(String a, String b) {
         a = new TreeSet<String>(Arrays.asList(a.split(""))).toString();
         b = new TreeSet<String>(Arrays.asList(b.split(""))).toString();
         return a.equals(b);
+    }
+
+    //passed on leetcode
+    public static boolean kicchiSolution(String s, String t){
+        if (s.length() != t.length())
+            return false;
+
+        int sIndex = 0;
+        while (sIndex < s.length()){
+            String currentSChar = "" + s.charAt(sIndex++);
+            if (t.contains(currentSChar)){
+                t = t.replaceFirst(currentSChar, "");
+            }
+            else {
+                return false;
+            }
+        }
+        return true;
     }
 }
