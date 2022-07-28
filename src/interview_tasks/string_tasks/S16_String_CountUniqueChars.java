@@ -8,7 +8,7 @@ import java.util.Collections;
  */
 public class S16_String_CountUniqueChars {
     /*
-        Given a string as input, write Java code to count and print the number of unique characters in String.
+        Given a string as input, write Java code to count the number of unique characters in String.
         If there are no unique characters in the string, the method returns -1
 
         EXAMPLE:
@@ -23,6 +23,9 @@ public class S16_String_CountUniqueChars {
     public static void main(String[] args) {
         System.out.println(defaultSolution1("aaaabbbbbccccc"));
         System.out.println(defaultSolution2("aaaabbbbbccccck"));
+
+       // System.out.println(kicchiSolution("aaaabbbbbccccc"));
+       // System.out.println(kicchiSolution("aaaabbbbbccccck"));
     }
 
     public static int defaultSolution1(String str) {
@@ -56,4 +59,9 @@ public class S16_String_CountUniqueChars {
         }
         return (count==0)? -1 : count;
     }
+
+    /*
+    public static int kicchiSolution(String str){
+        return (int)str.chars().filter(p -> str.split("" + (char)p).length < 2).count();
+    }*/
 }

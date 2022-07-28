@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * https://www.geeksforgeeks.org/longest-palindromic-substring-set-2/?ref=rp
  * https://leetcode.com/problems/longest-palindromic-substring/
  */
-public class S56_String_LongestPalindrome {
+public class S56_S57_String_LongestPalindrome {
     /* Write a program that can return the longest palindrome from a string
 
         PALINDROME: A phrase is a palindrome if, after converting all uppercase letters into lowercase
@@ -26,6 +26,11 @@ public class S56_String_LongestPalindrome {
     public static void main(String[] args) {
         System.out.println(defaultSolution1("Geeks"));
         System.out.println(defaultSolution2("Geeks"));
+        System.out.println(defaultSolution3("Geeks"));
+
+        System.out.println(defaultSolution1("forgeeksskeegfor"));
+        System.out.println(defaultSolution2("forgeeksskeegfor"));
+        System.out.println(defaultSolution3("forgeeksskeegfor"));
     }
 
     // Easier, but, involves using data structure
@@ -80,5 +85,27 @@ public class S56_String_LongestPalindrome {
         }
 
         return result;
+    }
+
+    public static String defaultSolution3(String str) {
+        String result = "";
+        int max = 0;
+        for (int i = 1; i < str.length(); i++) {
+            int j = i, l = i;
+            while (--j >= 0 && ++l <= str.length() - 1) {
+                if (defaultSolution_isPalindrome(str.substring(j, l))) {
+                    int length = str.substring(j, l).length();
+                    if (length > max) {
+                        max = length;
+                        result = str.substring(j, l);
+                    }
+                }
+            }
+        }
+        return (result.isEmpty()) ? "none" : result;
+    }
+
+    public static boolean defaultSolution_isPalindrome(String s) {
+        return s.equals(new StringBuilder(s).reverse().toString());
     }
 }

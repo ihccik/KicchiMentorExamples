@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class S14_List_RemoveNameAhmed {
 
@@ -19,6 +20,7 @@ public class S14_List_RemoveNameAhmed {
         System.out.println(defaultSolution1(names));
         System.out.println(defaultSolution2(names));
         System.out.println(defaultSolution3(names));
+        System.out.println(kicchiSolution(names));
     }
 
     public static List<String> defaultSolution1(List<String> names) {
@@ -38,5 +40,9 @@ public class S14_List_RemoveNameAhmed {
     public static List<String> defaultSolution3(List<String> names) {
         names.removeIf(name -> name.equals("Ahmed"));
         return names;
+    }
+
+    public static List<String> kicchiSolution(List<String> names) {
+        return names.stream().filter(f -> !f.equals("Ahmed")).collect(Collectors.toList());
     }
 }

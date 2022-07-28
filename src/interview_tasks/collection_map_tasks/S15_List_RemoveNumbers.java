@@ -3,6 +3,7 @@ package interview_tasks.collection_map_tasks;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class S15_List_RemoveNumbers {
 
@@ -14,6 +15,7 @@ public class S15_List_RemoveNumbers {
 
         System.out.println(defaultSolution1(input));
         System.out.println(defaultSolution2(input));
+        System.out.println(kicchiSolution(input));
     }
 
     public static List<Integer> defaultSolution1(List<Integer> list){
@@ -30,5 +32,9 @@ public class S15_List_RemoveNumbers {
     public static List<Integer> defaultSolution2(List<Integer> list){
         list.removeIf(number -> number > 100);
         return list;
+    }
+
+    public static List<Integer> kicchiSolution(List<Integer> list) {
+        return list.stream().filter(f -> f < 100).collect(Collectors.toList());
     }
 }
