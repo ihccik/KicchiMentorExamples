@@ -23,6 +23,7 @@ public class S8_Number_DivisibleBy3_5_15 {
 
     public static void main(String[] args) {
         defaultSolution(23);
+        kicchiSolution(23);
     }
 
     public static void defaultSolution(int n) {
@@ -55,5 +56,20 @@ public class S8_Number_DivisibleBy3_5_15 {
         System.out.println("Divisible By 15: " + divisibleBy15);
         System.out.println("Divisible By 5: " + divisibleBy5);
         System.out.println("Divisible By 3: " + divisibleBy3);
+    }
+
+    private static void kicchiSolution(int n){
+        String div15 = "Divisible By 15: ";
+        String div5 = "Divisible By 5: ";
+        String div3 = "Divisible By 3: ";
+        for (int i = 1; i <=n ; i++) {
+            if (i % 13 == 0)
+                div15 += i + " ";
+            else if (i % 5 == 0)
+                div5 += i + " ";
+            else if (i % 3 == 0)
+                div3 += i + " ";
+        }
+        System.out.println(div15.trim() + "\n" + div5.trim() + "\n" + div3.trim());
     }
 }

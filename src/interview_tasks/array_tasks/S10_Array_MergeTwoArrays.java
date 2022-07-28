@@ -1,6 +1,10 @@
 package interview_tasks.array_tasks;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 
 /**
  * these are merging two sorted arrays in order
@@ -13,6 +17,7 @@ public class S10_Array_MergeTwoArrays {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(defaultSolution(new int[]{4,4,5}, new int[]{2,4,6})));
+        System.out.println(Arrays.toString(kicchiSolution(new int[]{4,4,5}, new int[]{2,4,6})));
     }
 
     public static int[] defaultSolution(int[] arr1, int[] arr2) {
@@ -28,5 +33,12 @@ public class S10_Array_MergeTwoArrays {
         }
 
         return result;
+    }
+
+    public static int[] kicchiSolution(int[] arr1, int[] arr2){
+        List<Integer> all = new ArrayList<>();
+        Collections.addAll(all, (Arrays.stream(arr1).boxed().toArray(Integer[]::new)));
+        Collections.addAll(all, (Arrays.stream(arr2).boxed().toArray(Integer[]::new)));
+        return all.stream().mapToInt(Integer::intValue).toArray();
     }
 }

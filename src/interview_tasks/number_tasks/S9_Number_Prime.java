@@ -14,6 +14,7 @@ public class S9_Number_Prime {
 
     public static void main(String[] args) {
         System.out.println(defaultSolution(7));
+        System.out.println(kicchiSolution(7));
     }
 
     public static boolean defaultSolution(int num) {
@@ -26,6 +27,18 @@ public class S9_Number_Prime {
             }
         }
 
+        return true;
+    }
+
+    private static boolean kicchiSolution(int num){
+        if (num <= 1)
+            return false;
+
+        int divider = 2;
+        while (divider < num){
+            if (num % divider++ == 0)
+                return false;
+        }
         return true;
     }
 }
