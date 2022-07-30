@@ -1,23 +1,34 @@
 package interview_tasks.string_tasks;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.TreeMap;
+import java.util.stream.Collectors;
+
 /**
  * https://www.geeksforgeeks.org/printing-frequency-of-each-character-just-after-its-consecutive-occurrences/
  * https://www.geeksforgeeks.org/print-characters-and-their-frequencies-in-order-of-occurrence-using-a-linkedhashmap-in-java/?ref=rp
  * https://www.geeksforgeeks.org/print-characters-and-their-frequencies-in-order-of-occurrence-using-binary-tree/?ref=rp
- *
- * This task is the same with String_FrequencyOfCharacters
  */
 public class S17_String_CountOfRepeatedChars {
     /*
         Write a method that compresses a string based on the count of repeated characters.
+        In other words: Printing frequency of each character just after its CONSECUTIVE occurrences
 
         EXAMPLE:
         input: aabcccddaaaa
         output: a2b1c3d2a4
+        explanation:    a is repeated consecutively (not in WHOLE string) for 2 times   => a2
+                        then, b occurred for one time                                   => a2b1
+                        then, c occurred for three times                                => a2b1c3
+                        then, d occurred for 2 times                                    => a2b1c3d2
+                        then, again, a is repeated for 4 times                          => a2b1c3d2a4
      */
 
     public static void main(String[] args) {
         System.out.println(defaultSolution("aabcccddaaaa"));
+        System.out.println(kicchiSolution("aabcccddaaaa"));;
     }
 
     public static String defaultSolution(String str){
@@ -37,5 +48,29 @@ public class S17_String_CountOfRepeatedChars {
         result += ""+temp + count;
 
         return result;
+    }
+
+    public static String kicchiSolution(String str){
+        String output = "";
+        int currentCharCount = 0;
+        Character lastCharProcessed = null;
+        for (int i = 0; i < str.length(); i++) {
+            if (lastCharProcessed == null)
+                lastCharProcessed = str.charAt(i);
+
+            if (str.charAt(i) == lastCharProcessed){
+                currentCharCount++;
+            }else {
+                output += lastCharProcessed + "" + currentCharCount;
+                currentCharCount = 0;
+                lastCharProcessed = null;
+                i--;
+            }
+
+            if (i == str.length() - 1)
+                output += lastCharProcessed + "" + currentCharCount;
+        }
+
+        return output;
     }
 }

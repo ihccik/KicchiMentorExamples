@@ -2,6 +2,10 @@ package interview_tasks.string_tasks;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * https://www.geeksforgeeks.org/count-the-number-of-unique-characters-in-a-given-string/
@@ -24,8 +28,8 @@ public class S16_String_CountUniqueChars {
         System.out.println(defaultSolution1("aaaabbbbbccccc"));
         System.out.println(defaultSolution2("aaaabbbbbccccck"));
 
-       // System.out.println(kicchiSolution("aaaabbbbbccccc"));
-       // System.out.println(kicchiSolution("aaaabbbbbccccck"));
+        System.out.println(kicchiSolution("aaaabbbbbccccc"));
+        System.out.println(kicchiSolution("aaaabbbbbccccck"));
     }
 
     public static int defaultSolution1(String str) {
@@ -60,8 +64,13 @@ public class S16_String_CountUniqueChars {
         return (count==0)? -1 : count;
     }
 
-    /*
+
     public static int kicchiSolution(String str){
-        return (int)str.chars().filter(p -> str.split("" + (char)p).length < 2).count();
-    }*/
+        int uniqueCharacterCount = 0;
+        for (Character c: str.toCharArray()) {
+            if (str.indexOf(c) == str.lastIndexOf(c))
+                uniqueCharacterCount++;
+        }
+        return uniqueCharacterCount == 0 ? -1 : uniqueCharacterCount;
+    }
 }
