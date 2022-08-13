@@ -13,6 +13,7 @@ public class S26_Number_SumOfDigitsOfInteger {
 
     public static void main(String[] args) {
         System.out.println(defaultSolution(123));
+        System.out.println(defaultSolution(1234));
     }
 
     public static int defaultSolution(int number) {

@@ -23,6 +23,7 @@ public class S27_Number_SumAllDigitsUntilOneDigit {
 
     public static void main(String[] args) {
         defaultSolution(45659);
+        defaultSolution(1234567);
     }
 
     private static void defaultSolution(int number){

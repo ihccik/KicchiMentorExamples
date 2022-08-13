@@ -9,8 +9,8 @@ public class AltSolution_Easy_Map_FrequencyOfCharacters {
 
   public static void main(String[] args) {
 
-    System.out.println(defaultSolution(""));;
-    System.out.println(altSolution("   "));;
+    System.out.println(defaultSolution("responsible"));;
+    //System.out.println(altSolution("   "));;
   }
 
   static Map<Character, Integer> altSolution(String str){

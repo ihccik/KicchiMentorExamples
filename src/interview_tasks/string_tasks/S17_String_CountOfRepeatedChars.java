@@ -1,11 +1,5 @@
 package interview_tasks.string_tasks;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.TreeMap;
-import java.util.stream.Collectors;
-
 /**
  * https://www.geeksforgeeks.org/printing-frequency-of-each-character-just-after-its-consecutive-occurrences/
  * https://www.geeksforgeeks.org/print-characters-and-their-frequencies-in-order-of-occurrence-using-a-linkedhashmap-in-java/?ref=rp
@@ -60,15 +54,15 @@ public class S17_String_CountOfRepeatedChars {
 
             if (str.charAt(i) == lastCharProcessed){
                 currentCharCount++;
+
+                if (i == str.length() - 1)
+                    output += lastCharProcessed + "" + currentCharCount;
             }else {
                 output += lastCharProcessed + "" + currentCharCount;
                 currentCharCount = 0;
                 lastCharProcessed = null;
                 i--;
             }
-
-            if (i == str.length() - 1)
-                output += lastCharProcessed + "" + currentCharCount;
         }
 
         return output;
