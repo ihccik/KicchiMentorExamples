@@ -1,6 +1,7 @@
 package week26.behavior.solution;
 
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Inventory {
@@ -25,10 +26,21 @@ public class Inventory {
           && apple.getWeight() > 200
             && apple.getColor() == Color.GREEN;
     });*/
-
-
+    Apple apple = Apple.builder().type(Type.FUJI).color(Color.GREEN).weight(102d).build();
+/*
     PredicateExtender predicateExtender = apple -> apple.getColor() == Color.GREEN;
 
-    System.out.println(predicateExtender.test(Apple.builder().type(Type.FUJI).color(Color.GREEN).weight(102d).build()));
+
+
+    System.out.println(predicateExtender.test(apple);
+*/
+    Predicate<Apple> predicate = apple2 ->
+        apple2.getColor() == Color.GREEN;
+
+    yusuf(apple, predicate);
+  }
+
+  public static void yusuf(Apple apple, Predicate<Apple> predicate){
+    System.out.println(predicate.test(apple));
   }
 }
