@@ -1,7 +1,7 @@
-package week26.behavior.problem;
+                package week26.behavior.problem;
 
-import java.util.List;
+                import java.util.List;
 
-public interface RepositoryService {
-  List<Apple> getAllApples();
-}
+                public interface RepositoryService {
+                  List<Apple> getAllApples();
+                }
