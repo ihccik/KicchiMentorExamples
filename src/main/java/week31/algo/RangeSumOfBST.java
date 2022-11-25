@@ -12,11 +12,34 @@ public class RangeSumOfBST {
     root.left.right = new TreeNode(7);
     root.right.right = new TreeNode(18);
 
-    System.out.println(rangeSumBST(root,7,15));
+    int low = 7, high = 15;
 
     answer = 0;
-    dfs(root,7,15);
+    inOrderTraversal(root, low, high);
     System.out.println(answer);
+
+    System.out.println("*****************");
+    System.out.println(rangeSumBST(root, low, high));
+
+    System.out.println("*****************");
+    answer = 0;
+    dfs(root,low,high);
+    System.out.println(answer);
+  }
+
+  private static int answer;
+
+  private static void inOrderTraversal(TreeNode root, int low, int high){
+    if (root==null) return; // termination
+
+    if (root.val > low)
+      inOrderTraversal(root.left, low, high);
+
+    if (root.val >= low && root.val <= high)
+      answer += root.val;
+
+    if (root.val < high)
+      inOrderTraversal(root.right, low, high);
   }
 
   public static int rangeSumBST(TreeNode root, int low, int high) {
@@ -36,8 +59,6 @@ public class RangeSumOfBST {
     }
     return ans;
   }
-
-  private static int answer;
 
   public static void dfs(TreeNode node, int low, int high) {
     if (node != null) {
